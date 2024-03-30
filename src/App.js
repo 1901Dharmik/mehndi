@@ -7,6 +7,8 @@ import About from "./pages/About";
 import Contect from "./pages/Contect";
 import Gallery from "./pages/Gallery";
 import Navbar from "./components/Navbar";
+import Bridal_Mehndi from "./pages/Bridal_Mehndi";
+import My_Arts from "./pages/My_Arts";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,8 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contect" element={<Contect />} />
           <Route path="navbar" element={<Navbar />} />
+          <Route path="Bridal_Mehndi" element={<Bridal_Mehndi />} />
+          <Route path="My_Arts" element={<My_Arts />} />
         </Route>
       </Routes>
     </BrowserRouter>

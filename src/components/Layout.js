@@ -3,14 +3,14 @@ import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
 import { Outlet } from 'react-router-dom'
 import Footer from './Footer';
-import Header from './Header';
 // import Header from './Header';
-// import Navbar from './Navbar';
+// import Header from './Header';
+import Navbar from './Navbar';
 // import Header from "../components/Header";
 const Layout = () => {
   return (
     <div>
-    <Header/>
+    <Navbar/>
     <WhatsAppWidget
         phoneNo="919574057264"
         position="right"

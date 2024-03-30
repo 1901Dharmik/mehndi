@@ -17,9 +17,9 @@ function classNames(...classes) {
 }
 
 export default function Header() {
-  const [menuVisible, setMenuVisible] = useState(false);
+  const [show, setShow] = useState(false);
   return (
-    <div className='z-10 sticky top-0 bg-transparent backdrop-blur-md bg-opacity-85 bg-white shadow-sm border-b-1 border-gray-200'>
+    <div className='z-10 sticky top-0 bg-transparent backdrop-blur-lg bg-opacity-85 bg-white shadow-sm border-b-1 border-gray-200'>
       
     <Disclosure as="nav" className=" ">
       {({ open }) => (
@@ -59,7 +59,7 @@ export default function Header() {
                         to={item.Link}
                         className={classNames(
                           item.current ? 'bg-tranferent  text-red-800' : 'text-red-700',
-                          ' px-3 py-2 text-md font-semibold'
+                          ' px-3 py-2 text-md font-semibold hover:bg-[#ffe8d9] hover:rounded-lg'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -80,9 +80,9 @@ export default function Header() {
                 </button> */}
 
                 {/* Profile dropdown */}
-                <Menu as="div" className="relative ml-3">
+                {/* <Menu as="div" className="relative ml-3">
                   <div>
-                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <Menu.Button className="relative flex rounded-full  bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
                       <img
@@ -134,7 +134,7 @@ export default function Header() {
                       </Menu.Item>
                     </Menu.Items>
                   </Transition>
-                </Menu>
+                </Menu> */}
               </div>
             </div>
           </div>

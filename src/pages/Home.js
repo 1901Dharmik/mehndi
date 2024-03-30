@@ -350,8 +350,7 @@ const Home = () => {
     <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
         <div class="max-w-screen-sm mx-auto text-center">
             <h2 class="mb-4 text-3xl font-semibold leading-tight tracking-tight text-red-700 ">Contct Me</h2>
-            <p class="mb-6 font-light text-red-600 md:text-lg">Try Landwind Platform for 30 days. No
-                credit card required.</p>
+            <p class="mb-6 font-light text-red-600 md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab impedit perferendis nisi alias dolor vel doloremque, aut quos expedita, exercitationem molestiae amet.</p>
                 <div className="flex justify-center">
               <button className="btn-grad">
                 <Link to="tel:+91%209574057264" className="">
