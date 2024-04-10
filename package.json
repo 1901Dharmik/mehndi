@@ -11,6 +11,7 @@
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.7.3",
     "framer-motion": "^11.0.14",
+    "photoswipe": "^5.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-photo-album": "^2.3.1",

@@ -27,10 +27,10 @@ const Footer = () => {
       <div class="flex gap-4">
        <Link to="/" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Home</Link>
         <Link to="/gallery" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Gallery</Link>
-        <Link to="/" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">My Arts</Link>
-        <Link to="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Bridal Mehndi</Link>
-        <Link to="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact Me</Link>
-        <Link to="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About Me</Link>
+        <Link to="/My_Arts" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">My Arts</Link>
+        <Link to="/Bridal_Mehndi" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Bridal Mehndi</Link>
+        <Link to="/contect" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact Me</Link>
+        <Link to="/about" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About Me</Link>
       </div>
       {/* <!-- social - end --> */}
     </div>

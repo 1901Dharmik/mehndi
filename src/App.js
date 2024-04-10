@@ -9,6 +9,8 @@ import Gallery from "./pages/Gallery";
 import Navbar from "./components/Navbar";
 import Bridal_Mehndi from "./pages/Bridal_Mehndi";
 import My_Arts from "./pages/My_Arts";
+import Indexm from "./pages/Indexm"; 
+
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +23,7 @@ function App() {
           <Route path="navbar" element={<Navbar />} />
           <Route path="Bridal_Mehndi" element={<Bridal_Mehndi />} />
           <Route path="My_Arts" element={<My_Arts />} />
+          <Route path="Indexm" element={<Indexm />} />
         </Route>
       </Routes>
     </BrowserRouter>

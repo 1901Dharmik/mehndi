@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import SimpleGallery from '../components/SimpleGallery';
 
 // interface AppProps {}
@@ -6,7 +6,7 @@ import SimpleGallery from '../components/SimpleGallery';
 //   name: string;
 // }
 
-export default function Gallery() {
+export default function Indexm() {
   // constructor(props) {
   //   super(props);
   //   this.state = {

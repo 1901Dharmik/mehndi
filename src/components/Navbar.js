@@ -26,6 +26,10 @@ export default function Example() {
   const [open, setOpen] = useState(false);
 
   return (
+    <>
+    <p class="flex h-10 items-center justify-center bg-red-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
+    Available In Ahmedabad 
+    </p>
     <div className='z-10 sticky top-0 bg-transparent backdrop-blur-lg bg-opacity-85 bg-white shadow-sm border-b-1 border-gray-200'>
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
@@ -79,21 +83,22 @@ export default function Example() {
 
                 {/* Links */}
 
-                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                <div className="space-y-6 border-t border-gray-200 px-8 py-6">
                   {navigation.pages.map((page) => (
-                    <div key={page.name} className="flow-root">
+                    <div key={page.name} className="flow-root ">
                       <NavLink
                         to={page.Link}
-                        className="-m-2 block p-2 font-medium text-gray-900"
+                        className="-m-2 block p-2 font-medium text-gray-900 "
                         onClick={() => setOpen(false)}
                       >
                         {page.name}
                       </NavLink>
+                      <hr className="mt-5 mr-5" />
                     </div>
                   ))}
                 </div>
 
-                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                {/* <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                   <div className="flow-root">
                     <a
                       href="#"
@@ -124,7 +129,7 @@ export default function Example() {
                     </span>
                     <span className="sr-only">, change currency</span>
                   </a>
-                </div>
+                </div> */}
               </Dialog.Panel>
             </Transition.Child>
           </div>
@@ -177,7 +182,7 @@ export default function Example() {
                 </div>
               </Popover.Group>
 
-              <div className="ml-auto flex items-center">
+              {/* <div className="ml-auto flex items-center">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a
                     href="#"
@@ -208,11 +213,12 @@ export default function Example() {
                     <span className="sr-only">, change currency</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>
       </header>
     </div>
+    </>
   );
 }

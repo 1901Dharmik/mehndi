@@ -27,9 +27,10 @@ const Home = () => {
             <h3 className="text-2xl md:text-5xl font-semibold">
               Committed to making your special occasion a memorable one
             </h3>
-            <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
-              nobis in error repellat voluptatibus ad.
+            <p className="text-base md:text-lg text-red-900 my-4 md:my-6">
+              Have questions, comments, or feedback? We're here to help! Feel
+              free to reach out to us using the contact information provided
+              below
             </p>
             <div className="flex">
               <button className="btn-grad">
@@ -54,13 +55,17 @@ const Home = () => {
             <div>
               <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                 Hey 👋 I am <br className="block sm:hidden" />
-                Anjali Prajapati
+                Anjali Prajapati,
               </h2>
-              <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+              <p className="max-w-lg mt-3 text-md leading-relaxed text-gray-600 md:mt-8">
+                As a passionate mehndi artist, I specialize in creating
+                exquisite and intricate mehndi designs that add a touch of
+                elegance and tradition to every occasion. With 10 Years of
+                experience in the art of mehndi, I take pride in my ability to
+                transform ideas into beautiful designs that exceed my clients'
+                expectations.
               </p>
+
               <p className="mt-4 text-xl text-gray-600 md:mt-8">
                 <span className="relative inline-block">
                   <span className="absolute inline-block w-full bottom-0.5 h-2 " />
@@ -91,7 +96,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="mx-3 rounded-md bg-white">
+      <h3 className=" flex justify-center mx-4 align-middle text-red-600 text-3xl bg-red-100  font-semibold py-3 rounded-full">
+        My Works
+      </h3>
+      <div className="mx-3 py-6 rounded-md bg-white">
         <h3 className="text-red-600 text-2xl font-semibold py-3">
           Bridal Mehndi
         </h3>
@@ -218,7 +226,7 @@ const Home = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div class="bg-[#f3f4f6] p-3">
+        {/* <div class="bg-[#f3f4f6] p-3">
           <h3 className="text-red-600 text-2xl font-semibold py-3">My Works</h3>
           <div class="grid xl:grid-cols-2 gap-6 sm:grid-cols-1 ">
             <Swiper
@@ -296,8 +304,7 @@ const Home = () => {
                   </h3>
                 </div>
                 <div class="p-6">
-                  {/* <h3 class="text-2xl font-bold">Laptops</h3>
-                <p class="mt-2">Start ₹91,000 to ₹2,56,000</p> */}
+                
                 </div>
               </div>
               <div
@@ -310,8 +317,7 @@ const Home = () => {
                   </h3>
                 </div>
                 <div class="p-6">
-                  {/* <h3 class="text-2xl font-bold">Smart Watch</h3>
-                <p class="mt-2">Start ₹14,999 to ₹24,999</p> */}
+               
                 </div>
               </div>
               <div
@@ -324,8 +330,7 @@ const Home = () => {
                   </h3>
                 </div>
                 <div class="p-6">
-                  {/* <h3 class="text-2xl font-bold">Mobiles</h3>
-                <p class="mt-2">Start ₹58,999 to ₹2,16,000</p> */}
+             
                 </div>
               </div>
               <div
@@ -338,20 +343,109 @@ const Home = () => {
                   </h3>
                 </div>
                 <div class="p-6">
-                  {/* <h3 class="text-2xl font-bold">Earphone</h3>
-                <p class="mt-2">Start ₹8,999 to ₹16,000</p> */}
+                
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </>
+      <div className="grid lg:grid-cols-2 sm:grid-cols-2 mx-3 lg:pl-4 sm:pl-0 py-8">
+        <section className=" ">
+          <h3 className="text-red-600 text-2xl font-semibold py-3">Services</h3>
+          <ul class="max-w-md space-y-1 text-md p-2 text-gray-800 list-disc list-inside dark:text-gray-400">
+            <li className="pb-4">
+              Customized mehndi designs for weddings, festivals, parties, and
+              special events
+            </li>
+            <li className="pb-4">
+              Traditional Indian, Arabic, Moroccan, and contemporary fusion
+              designs
+            </li>
+            <li className="pb-4">
+              Bridal mehndi packages tailored to individual preferences and
+              themes
+            </li>
+            <li className="pb-4">
+              Mehndi parties and group bookings for a unique and memorable
+              experience
+            </li>
+          </ul>
+        </section>
+        <section className="">
+          <h3 className="text-red-600 text-2xl font-semibold py-3">
+            Why Choose Me?
+          </h3>
+          <ul class="max-w-md space-y-1 p-2 text-gray-500 list-inside dark:text-gray-400">
+            <li class="flex items-center pb-4">
+              <svg
+                class="w-4 h-4 me-2 text-red-600 dark:text-green-400 flex-shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+              </svg>
+              Exceptional attention to detail and precision in design execution
+            </li>
+            <li class="flex items-center pb-4">
+              <svg
+                class="w-4 h-4 me-2 text-red-600 dark:text-green-400 flex-shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+              </svg>
+              Commitment to using high-quality, natural paste for safe and
+              long-lasting results
+            </li>
+            <li class="flex items-center pb-4">
+              <svg
+                class="w-4 h-4 me-2 text-red-600 dark:text-green-400 flex-shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+              </svg>
+              Dedication to providing a personalized experience and ensuring
+              client satisfaction
+            </li>
+            <li class="flex items-center pb-4">
+              <svg
+                class="w-4 h-4 me-2 text-red-600 dark:text-green-400 flex-shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+              </svg>
+              Continuous learning and exploration of new techniques to stay
+              updated with the latest trends in mehndi artistry
+            </li>
+          </ul>
+        </section>
+      </div>
       <section class="bg-[#f4d5d2] m-3 rounded-xl ">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-        <div class="max-w-screen-sm mx-auto text-center">
-            <h2 class="mb-4 text-3xl font-semibold leading-tight tracking-tight text-red-700 ">Contct Me</h2>
-            <p class="mb-6 font-light text-red-600 md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab impedit perferendis nisi alias dolor vel doloremque, aut quos expedita, exercitationem molestiae amet.</p>
-                <div className="flex justify-center">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
+          <div class="max-w-screen-sm mx-auto text-center">
+            <h2 class="mb-4 text-3xl font-semibold leading-tight tracking-tight text-red-700 ">
+              Contct Me
+            </h2>
+            <p class="mb-6 font-midium text-red-800 md:text-lg">
+              To book your mehndi session or inquire about my services, please
+              contact me. I offer flexible booking options and consultations to
+              discuss your design preferences and requirements.
+            </p>
+            <p class="mb-6 font-midium text-[#111] md:text-lg">
+              Note {""}! : I Am Available In Ahmedabad Only
+            </p>
+            <div className="flex justify-center">
               <button className="btn-grad">
                 <Link to="tel:+91%209574057264" className="">
                   Call Now
@@ -363,10 +457,9 @@ const Home = () => {
                 </Link>
               </button>
             </div>
+          </div>
         </div>
-    </div>
-</section>
-     
+      </section>
 
       <div className="mx-3 pb-8 ">
         <h2 class="my-8  text-center text-2xl font-bold text-red-600 md:mb-8 lg:text-3xl xl:mb-12">
@@ -778,8 +871,6 @@ const Home = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-
- 
     </div>
   );
 };
