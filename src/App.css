@@ -84,3 +84,8 @@
 .ppt:hover{
   transition: color .2s cubic-bezier(0.4,0.8,0.74,1);
 }
+
+.main-swiper{
+ max-height:400px;
+ object-fit: contain;
+}

@@ -82,12 +82,12 @@ const Home = () => {
               </p>
             </div>
             <div className="relative pb-2">
-              {/* <img
+              {/* <img loading="lazy"
                 className="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"
                 src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg"
                 alt
               /> */}
-              <img
+              <img loading="lazy"
                 className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 drop-shadow-lg"
                 src="/images/dd1.png"
                 alt
@@ -112,31 +112,31 @@ const Home = () => {
           className="mySwiper max-h-screen rounded-xl "
         >
           <SwiperSlide>
-            <img
+            <img loading="lazy"
               src="/images/beautiful-mehndi-patterns-cover-bride-s-fingers-which-she-holds.jpg"
               alt=""
             />
           </SwiperSlide>
           {/* <SwiperSlide>
-        <img src="/images/dl.beatsnoop.com-high-d3ed9b934dd7067d99.jpg" alt="" />
+        <img loading="lazy" src="/images/dl.beatsnoop.com-high-d3ed9b934dd7067d99.jpg" alt="" />
         </SwiperSlide> */}
           <SwiperSlide>
-            <img
+            <img loading="lazy"
               src="/images/mehndi-designs-hands-beautiful-traditional-indian-jewelry.jpg"
               alt=""
             />
           </SwiperSlide>
           <SwiperSlide>
-            <img
+            <img loading="lazy"
               src="/images/mehndi-wedding-ornament-hands-drawn-by-henna.jpg"
               alt=""
             />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/images/mehndi-designs-1743265.jpg" alt="" />
+            <img loading="lazy" src="/images/mehndi-designs-1743265.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
+            <img loading="lazy"
               src="/images/mehndi-designs-hands-beautiful-traditional-indian-jewelry.jpg"
               alt=""
             />
@@ -149,7 +149,7 @@ const Home = () => {
           <h3 className="text-red-600 text-2xl font-semibold py-4">
             Casual Mehndi
           </h3>
-          <Swiper
+          <Swiper 
             style={{
               "--swiper-pagination-color": "#c81e1e",
             }}
@@ -189,40 +189,46 @@ const Home = () => {
               disableOnInteraction: false,
             }}
             modules={[FreeMode, Autoplay, Pagination]}
-            className="mySwiper  "
+            className="mySwiper main-swiper"
           >
             <SwiperSlide>
-              <img src="/images/img1.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img1.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img2.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img2.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img3.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img3.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img4.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img4.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img5.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img5.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img6.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img6.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img7.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img7.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img8.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img8.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img9.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img9.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img10.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img10.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/images/img11.jpg" alt="" className="rounded-md" />
+              <img loading="lazy" src="/images/img11.jpg" alt="" className="rounded-md" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img loading="lazy" src="/images/img12.jpg" alt="" className="rounded-md" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img loading="lazy" src="/images/img13.jpg" alt="" className="rounded-md" />
             </SwiperSlide>
           </Swiper>
         </div>
@@ -245,7 +251,7 @@ const Home = () => {
               className="mySwiper"
             >
               <SwiperSlide className="rounded-md">
-                <img
+                <img loading="lazy"
                   src="/images/beautiful-mehndi-patterns-cover-bride-s-fingers-which-she-holds.jpg"
                   alt=""
                   className="rounded-md"
@@ -253,7 +259,7 @@ const Home = () => {
               </SwiperSlide>
               <SwiperSlide>
                 {" "}
-                <img
+                <img loading="lazy"
                   src="/images/mehndi-designs-hands-beautiful-traditional-indian-jewelry.jpg"
                   alt=""
                   className="rounded-md"
@@ -261,7 +267,7 @@ const Home = () => {
               </SwiperSlide>
               <SwiperSlide>
                 {" "}
-                <img
+                <img loading="lazy"
                   src="/images/mehndi-wedding-ornament-hands-drawn-by-henna.jpg"
                   alt=""
                   className="rounded-md"
@@ -269,7 +275,7 @@ const Home = () => {
               </SwiperSlide>
               <SwiperSlide>
                 {" "}
-                <img
+                <img loading="lazy"
                   src="/images/mehndi-wedding-ornament-hands-drawn-by-henna.jpg"
                   alt=""
                   className="rounded-md"
@@ -277,7 +283,7 @@ const Home = () => {
               </SwiperSlide>
               <SwiperSlide>
                 {" "}
-                <img
+                <img loading="lazy"
                   src="/images/mehndi-wedding-ornament-hands-drawn-by-henna.jpg"
                   alt=""
                   className="rounded-md"
@@ -285,7 +291,7 @@ const Home = () => {
               </SwiperSlide>
               <SwiperSlide>
                 {" "}
-                <img
+                <img loading="lazy"
                   src="/images/mehndi-wedding-ornament-hands-drawn-by-henna.jpg"
                   alt=""
                   className="rounded-md"
